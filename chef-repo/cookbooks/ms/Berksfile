@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+source 'https://supermarket.chef.io'
+
+metadata
+
+cookbook 'mysql', git:  'ssh://git@github.com/sous-chefs/mysql'
+cookbook 'tomcat', git: 'git@github.com:chef-cookbooks/tomcat.git'
